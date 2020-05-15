@@ -1,5 +1,5 @@
 # OGFilter
-OGFilter is a script that parses the OrthoFinder output and returns only the orthogroups that meet specific criteria.
+OGFilter is a script that parses the OrthoFinder output and returns only the orthogroups that meet specific criteria. <br>
 These criteria include:
 - Minimum number of species present in orthogroup
 - Maximum number of gene copies per species in orthogroup
