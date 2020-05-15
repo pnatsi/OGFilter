@@ -1,8 +1,10 @@
 # OGFilter
-OGFilter is a script that parses the OrthoFinder output and returns only the orthogroups that meet specific criteria.  This is feature particularly useful in phylogenomics analysis, where a researcher is interested in obtaining genes with high species representation but low multiple copy occurences. <br>
+OGFilter is a script that parses the OrthoFinder output and returns only the orthogroups that meet specific criteria.  <br>
 These criteria include:
 - Minimum number of species present in orthogroup
-- Maximum number of gene copies per species in orthogroup
+- Maximum number of gene copies per species in orthogroup <br>
+
+This feature is particularly useful in phylogenomics analysis, where a researcher is interested in obtaining genes with high species representation but low multiple copy occurences. <br>
 
 The desired orthogroups are written in a new directory defined by the user.
 
