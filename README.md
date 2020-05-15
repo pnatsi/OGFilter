@@ -19,7 +19,7 @@ Argument    |  Description
 ## Example usage
 
 ```
-python OGFilter.py -g Orthogroups.GeneCount.tsv -s Orthogroup_Sequences -o output_dir -min_species 0.8 -max_dupl 3 
+python OGFilter.py -g Orthogroups.GeneCount.tsv -s Orthogroup_Sequences -o output_dir -min_species 0.8 -max_copies 3 
 ```
 
 This will create an output directory (-o output_dir) which will contain all orthogroups with at least 80% of the original species present (-min_species 0.8) and with maximum 3 copies per species (-max_copies 3).
