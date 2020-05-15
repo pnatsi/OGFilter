@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 19 12:38:25 2019
 
-"""
 import os
 import csv
 import shutil
