@@ -4,7 +4,7 @@ These criteria include:
 - Minimum number of species present in orthogroup
 - Maximum number of gene copies per species in orthogroup
 
-The desired orthogroups are written in a new directory defined by the userthe.
+The desired orthogroups are written in a new directory defined by the user.
 
 ## Arguments
 Argument    |  Description             
