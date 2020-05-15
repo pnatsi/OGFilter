@@ -12,20 +12,20 @@ python OGFilter.py -g Orthogroups.GeneCount.tsv -s Orthogroup_Sequences -o outpu
 
 This will create an output directory (-o output_dir) which will contain all orthogroups with at least 80% of the original species present (-min_species 0.8) and with maximum 3 copies per species (-max_copies 3).
 
+======================================================================================
 
-Who 
+<br>
 
- Mattia Giacomelli (mattia.giacomelli@bristol.ac.uk); 
- Paschalis Natsidis (p.natsidis@ucl.ac.uk); 
- 
- 
-Where 
 
- Pisani Lab, Uni Bristol; 
- Telford Lab, UCL;
+Who<br> 
+ Mattia Giacomelli (mattia.giacomelli@bristol.ac.uk); <br>
+ Paschalis Natsidis, MSc Thesis student (pnatsidis@hotmail.com); <br>
+<br>
+Where<br>
+ Pisani Lab, Uni Bristol; <br>
+ Telford Lab, UCL; <br>
  ITN IGNITE; 
-  
-  
-When
-
+<br>
+<br>
+When<br> 
  November 2019; 
