@@ -23,7 +23,7 @@ parser.add_argument('-s', metavar = 'directory', dest = 'og_seqs_dir', required 
                     help = 'path to Orthgroup_Sequences directory')
 parser.add_argument('-o', metavar = 'directory', dest = 'output_dir', required = True,
                     help = 'directory where the output will be written')
-parser.add_argument('-max_copies', metavar = 'int', dest = 'dupl', required = True,
+parser.add_argument('-max_copies', metavar = 'int', dest = 'copies', required = True,
                     help = 'Maximum number of gene copies per species in an orthogroup to be kept')
 parser.add_argument('-min_species', metavar = 'float', dest = 'n_species', required = True,
                     help = 'Minimum number of species present in an orthogroup to be kept')
@@ -37,7 +37,7 @@ args = parser.parse_args()
 genecounts = args.genecounts_tsv
 orthogroup_sequences_dir = args.og_seqs_dir
 output_directory = args.output_dir
-max_duplications = int(args.dupl)
+max_copies = int(args.copies)
 min_species_proportion = float(args.n_species)
 
 wdir = os.getcwd()
@@ -54,11 +54,11 @@ with open(genecounts) as tsvfile:
     for og in reader:
         current_og = og[1:-1]
         current_og_ints = [int(x) for x in current_og]
-        if max_duplications == 1 and max(current_og_ints) == 1 and (total_species - current_og_ints.count(0)) >= min_species_number:
+        if max_copies == 1 and max(current_og_ints) == 1 and (total_species - current_og_ints.count(0)) >= min_species_number:
             OGs_list.append(og[0])
             OGs_list_ID = [item + '.fa' for item in OGs_list]
             
-        if max(current_og_ints) <= max_duplications and (total_species - current_og_ints.count(0)) >= min_species_number:
+        if max(current_og_ints) <= max_copies and (total_species - current_og_ints.count(0)) >= min_species_number:
             counts = sorted(list(set(current_og)))
             OGs_list.append(og[0])
             OGs_list_ID = [item + '.fa' for item in OGs_list]
