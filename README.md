@@ -6,7 +6,6 @@ These criteria include:
 
 This feature is particularly useful in phylogenomics analysis, where a researcher is interested in obtaining genes with high species representation but low multiple copy occurences. <br>
 
-The desired orthogroups are written in a new directory defined by the user.
 
 ## Arguments
 Argument    |  Description             
