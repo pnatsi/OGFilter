@@ -14,13 +14,21 @@ This will create an output directory (-o output_dir) which will contain all orth
 
 
 Who 
+
  Mattia Giacomelli (mattia.giacomelli@bristol.ac.uk); 
+ 
  Paschalis Natsidis (p.natsidis@ucl.ac.uk); 
  
+ 
 Where 
+
  Pisani Lab, Uni Bristol; 
+ 
  Telford Lab, UCL;
+ 
  ITN IGNITE; 
   
+  
 When
+
  November 2019; 
