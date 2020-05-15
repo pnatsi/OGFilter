@@ -6,8 +6,6 @@ import csv
 import shutil
 import itertools
 import argparse
-### These are my a priori:
-
 
 
 usage = "A script to filter OrthoFinder results and keep orthogroups with specific properties."
