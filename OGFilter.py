@@ -3,7 +3,6 @@
 """
 Created on Thu Sep 19 12:38:25 2019
 
-@author: Mattia "el progammador" Giacomelli
 """
 import os
 import csv
@@ -27,7 +26,7 @@ parser.add_argument('-s', metavar = 'directory', dest = 'og_seqs_dir', required 
                     help = 'path to Orthgroup_Sequences directory')
 parser.add_argument('-o', metavar = 'directory', dest = 'output_dir', required = True,
                     help = 'directory where the output will be written')
-parser.add_argument('-max_dupl', metavar = 'int', dest = 'dupl', required = True,
+parser.add_argument('-max_copies', metavar = 'int', dest = 'dupl', required = True,
                     help = 'Maximum number of gene copies per species in an orthogroup to be kept')
 parser.add_argument('-min_species', metavar = 'float', dest = 'n_species', required = True,
                     help = 'Minimum number of species present in an orthogroup to be kept')
