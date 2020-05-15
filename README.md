@@ -1,10 +1,22 @@
 # OGFilter
-OGFilter is a script that parsees the OrthoFinder output and returns only the orthogroups that meet specific criteria.
+OGFilter is a script that parses the OrthoFinder output and returns only the orthogroups that meet specific criteria.
 These criteria include:
 - Minimum number of species present in orthogroup
 - Maximum number of gene copies per species in orthogroup
 
-For example:
+The desired orthogroups are written in a new directory defined by the user.
+
+## Arguments
+Argument    |  Description             
+:-------------:|:-----------------------
+-g filename | file w/ gene counts (from OrthoFinder output)
+-s dirname | directory that contains the orthogroups fasta files (from OrthoFinder output)
+-o dirname | directory to write the output orthogroups
+-min_species float | minimum proportion of the original species in the desired orthogroups 
+-max_copies int | maximum number of gene copies per species in the desired orthogroups
+<br>   
+
+## Example usage
 
 ```
 python OGFilter.py -g Orthogroups.GeneCount.tsv -s Orthogroup_Sequences -o output_dir -min_species 0.8 -max_dupl 3 
