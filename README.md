@@ -33,7 +33,7 @@ This will create an output directory (-o output_dir) which will contain all orth
 
 Who<br> 
  Mattia Giacomelli (mattia.giacomelli@bristol.ac.uk); <br>
- Paschalis Natsidis, MSc Thesis student (pnatsidis@hotmail.com); <br>
+ Paschalis Natsidis (p.natsidis@ucl.ac.uk); <br>
 <br>
 Where<br>
  Pisani Lab, Uni Bristol; <br>
